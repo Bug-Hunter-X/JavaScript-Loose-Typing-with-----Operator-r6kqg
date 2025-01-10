@@ -1,0 +1,1 @@
+function foo(a,b){if(typeof a === 'number' && typeof b === 'number'){return a+b;}else{return String(a) + String(b);}}console.log(foo(2,3));//Expected output:5console.log(foo(2,"3"));//Expected output:23console.log(foo("2",3));//Expected output:23console.log(foo("2","3"));//Expected output:23
