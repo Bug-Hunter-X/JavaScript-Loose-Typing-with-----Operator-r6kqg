@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in JavaScript related to its loose typing system and the behavior of the '+' operator.  The bug showcases how using '+' with a mix of strings and numbers can lead to unexpected string concatenation instead of numerical addition.  The solution offers a way to handle this using type checking or parsing to ensure intended behavior.
